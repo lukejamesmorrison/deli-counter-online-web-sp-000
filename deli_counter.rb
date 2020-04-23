@@ -1,6 +1,6 @@
 def line(patrons)
   if patrons.empty?
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
     output = "The line is currently: "
     place = 1
