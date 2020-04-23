@@ -9,7 +9,6 @@ def line(patrons)
     end
     
     puts output
-    return output
   end
   
   
