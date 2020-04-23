@@ -24,5 +24,7 @@ end
 
 def now_serving(patrons)
   if patrons.empty?
-    puts 
+    puts "There is nobody waiting to be served!"
+  else 
+    puts  
 end
