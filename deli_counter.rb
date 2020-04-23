@@ -6,6 +6,7 @@ def line(patrons)
     place = 1
     patrons.collect do |patron|
       "#{place}: #{patron}"
+      place += 1
     end
     
     puts output + patrons.join(' ')
