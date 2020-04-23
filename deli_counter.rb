@@ -7,7 +7,8 @@ def line(patrons)
     patrons.each do |patron|
       output = output + "#{place}: #{patron} "
     end
-    output
+    
+    return output
   end
   
   
