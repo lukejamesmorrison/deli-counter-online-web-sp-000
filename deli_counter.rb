@@ -9,5 +9,7 @@ def line(patrons)
 end
 
 def take_number(patrons, name)
-  # 
+  
+  patrons << name
+  puts patrons.length
 end
