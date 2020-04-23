@@ -3,7 +3,8 @@ def line(patrons)
     "The line is currently empty."
   else
     intro = "The line is currently: "
-    patrons_string = patrons.collect {patron|}
+    patrons_string = patrons.collect do
+    end
   end
   
   
