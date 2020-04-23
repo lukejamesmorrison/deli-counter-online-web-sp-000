@@ -4,7 +4,7 @@ def line(patrons)
   else
     output = "The line is currently: "
     place = 1
-    patrons.collect do |patron|
+    patrons.map do |patron|
       "#{place}: #{patron}"
       place += 1
     end
