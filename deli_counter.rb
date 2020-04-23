@@ -6,7 +6,7 @@ def line(patrons)
     place = 0
     patrons.collect! do |patron|
       place += 1
-      patron = "#{place}: #{patron}"
+      patron = "#{place}. #{patron}"
       
     end
     
