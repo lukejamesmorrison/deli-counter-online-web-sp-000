@@ -3,7 +3,7 @@ def line(patrons)
     puts "The line is currently empty."
   else
     output = "The line is currently: "
-    place = 1
+    place = 0
     patrons.collect! do |patron|
       place += 1
       patron = "#{place}: #{patron}"
