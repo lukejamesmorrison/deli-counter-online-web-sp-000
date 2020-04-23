@@ -8,6 +8,7 @@ def line(patrons)
       output = output + "#{place}: #{patron} "
     end
     
+    puts output
     return output
   end
   
