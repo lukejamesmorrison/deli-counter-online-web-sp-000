@@ -1,1 +1,2 @@
-def line(katz_deli)
+def line(patrons)
+end
