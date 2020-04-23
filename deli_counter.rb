@@ -8,7 +8,7 @@ def line(patrons)
       "#{place}: #{patron}"
     end
     
-    puts output.join()
+    puts output + patrons.join(' ')
   end
   
   
