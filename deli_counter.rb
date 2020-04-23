@@ -5,8 +5,9 @@ def line(patrons)
     output = "The line is currently: "
     place = 1
     patrons.collect! do |patron|
-      patron = "#{place}: #{patron}"
       place += 1
+      patron = "#{place}: #{patron}"
+      
     end
     
     puts output + patrons.join(' ')
