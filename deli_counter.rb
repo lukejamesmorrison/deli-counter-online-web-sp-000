@@ -26,5 +26,6 @@ def now_serving(patrons)
   if patrons.empty?
     puts "There is nobody waiting to be served!"
   else 
-    puts  
+    puts "Currently serving #{patron}."
+    patrons.shift
 end
