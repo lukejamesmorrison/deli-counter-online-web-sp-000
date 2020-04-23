@@ -22,6 +22,7 @@ def take_a_number(patrons, name)
   puts "Welcome, #{name}. You are number #{patrons.length} in line."
 end
 
-def now_serving
-  
+def now_serving(patrons)
+  if patrons.empty?
+    puts 
 end
