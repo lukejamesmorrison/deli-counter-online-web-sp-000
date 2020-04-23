@@ -1,5 +1,7 @@
 def line(patrons)
   if patrons.empty?
-    return 
+    return "The line is currently empty."
   end
+  
+  
 end
