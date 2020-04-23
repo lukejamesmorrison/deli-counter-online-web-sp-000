@@ -28,4 +28,5 @@ def now_serving(patrons)
   else 
     puts "Currently serving #{patron}."
     patrons.shift
+  end
 end
