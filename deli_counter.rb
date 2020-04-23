@@ -2,7 +2,7 @@ def line(patrons)
   if patrons.empty?
     "The line is currently empty."
   else
-    patrons.each
+    patrons
   end
   
   
