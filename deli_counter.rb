@@ -2,10 +2,12 @@ def line(patrons)
   if patrons.empty?
     "The line is currently empty."
   else
-    intro = "The line is currently: "
-    patrons_string = patrons.collect do |patron|
-      
+    output = "The line is currently: "
+    place = 1
+    patrons.each do |patron|
+      output = output + "#{place}: #{patron} "
     end
+    output
   end
   
   
