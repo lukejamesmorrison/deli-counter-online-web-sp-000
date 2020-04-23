@@ -2,13 +2,13 @@ def line(patrons)
   if patrons.empty?
     puts "The line is currently empty."
   else
-    output = "The line is currently: "
+    output = "The line is currently:"
     place = 1
-    patrons.each do |patron|
-      output = output + "#{place}: #{patron} "
+    patrons.collect do |patron|
+      output = output + "#{place}: #{patron}"
     end
     
-    puts output
+    puts output.join()
   end
   
   
