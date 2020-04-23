@@ -16,7 +16,7 @@ def line(patrons)
   
 end
 
-def take_number(patrons, name)
+def take_a_number(patrons, name)
   
   patrons << name
   puts "Welcome, #{name}. You are number #{patrons.length} in line."
