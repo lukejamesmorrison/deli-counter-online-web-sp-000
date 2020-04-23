@@ -7,13 +7,9 @@ def line(patrons)
     patrons.collect! do |patron|
       place += 1
       patron = "#{place}. #{patron}"
-      
     end
-    
     puts output + patrons.join(' ')
   end
-  
-  
 end
 
 def take_a_number(patrons, name)
